@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+
+        .content {
+            
+            margin-top: 80px;
+            width: 100%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Adjusted for better readability on smaller screens */
+            color: #aaffdf;
+            margin-top: 20px;
+        }
+
+        header {
+            margin: 0;
+            width: 100%;
+            background-color: #aaffdf;
+            padding: 15px 0; /* Adjusted padding */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000; /* Ensure header stays on top */
+        }
+
+        .nav-links {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap; /* Allow items to wrap if needed */
+        }
+
+        .nav-links li {
+            margin: 0 10px; /* Adjusted margin */
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #0056b3;
+            font-size: 16px; /* Adjusted font size for smaller screens */
+            font-weight: bold;
+            padding: 10px 20px; /* Adjusted padding */
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: black;
+            color: #ffab65;
+        }
+
+        footer {
+            background-color: #aaffdf;
+            color: black;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        .social-icons {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .social-icons li {
+            margin: 0 10px;
+        }
+
+        .social-icons a {
+            color: black;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #ffab65;
+        }
+
+        .location {
+            margin-top: 10px;
+        }
+
+        .location p {
+            margin: 5px 0;
+        }
+
+        .copywrite {
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .nav-links li {
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2em; /* Further adjusted font size for mobile */
+            }
+        }
+    </style>
+    <!-- Font Awesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="index.php">Services</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <img src="https://medtigo.com/wp-content/uploads/2024/02/How-can-a-ACLS-certification-help-me-get-a-job-1024x576.png" alt="Hospital Image">
+    </div>
+
+    <footer>
+        <ul class="social-icons">
+            <li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+        <div class="location">
+            <p>sree vidyanikethan engineering college</p>
+            <p>Email: projectcardiovascular@gmail.com  | Phone: +91 9876543210</p>
+        </div>
+        <div class="copywrite">
+            <p>&copy; 2024 Hospital Website. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
