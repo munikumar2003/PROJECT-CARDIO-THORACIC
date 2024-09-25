@@ -16,4 +16,4 @@ The Cardio-Thoracic Disease Prediction Website is an online platform designed to
 
 This project is aimed at empowering individuals and healthcare providers with early detection tools, potentially aiding in timely medical intervention.
 
-**http://cardio-thoracic.42web.io/index.php**
+**http://cardio-thoracic.42web.io/Services.php**
